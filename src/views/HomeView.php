@@ -1,8 +1,8 @@
 <?php
 
+namespace  auberge_espagnole\views ;
 
-class HomeView
-{
+class HomeView{
  public function renderHome(){
      echo <<<END
              <!DOCTYPE html>
@@ -13,7 +13,8 @@ class HomeView
             <title>Basic HTML File</title>
         </head>
         <body>
-            <h1>Hello, world!</h1>
+            <h1>Auberge Espagnole</h1>
+            <div>la solution pour vos evenements et célébrations !</div>
         </body>
         </html>
 END;
