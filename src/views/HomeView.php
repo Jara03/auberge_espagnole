@@ -16,10 +16,10 @@ class HomeView{
         </head>
         <body>
              <div id="mainbar">
-                 <div id="title">Auberge Espagnole</div>
-       <div id="mainquote">Organisez vos evenements!</div>
-             </div>
-       <div id="showpan"> </div>
+                    <a href="inscription">S'inscrire</a>
+                    <a href="connexion">Se connecter</a>
+                    </div>
+       <div id="showpan"> ceci est le tableau d'affichage </div>
         </body>
         </html>
 END;

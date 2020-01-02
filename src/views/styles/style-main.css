@@ -10,34 +10,48 @@
     src: url("../../../fonts/Merriweather-Bold.ttf");
 }
 body {
-    background: #dfcd95;
-    color: #d2a235;
-    margin: 0px;
+    background-color: #5c3551   ;
     padding: 20px 20px 10px  10px;
 }
 
+
 #mainbar{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background: url(logo.png) no-repeat -10px -90px;
+    background-size: 300px 300px;
     border-bottom: solid #cba429;
+    margin-bottom: 100px ;
     border-width: 1px ;
+    text-align: right;
+    font-family: specialElite;
+}
+
+#showpan{
+    border: solid 1px darkgoldenrod;
+    border-radius: 5px;
+    text-align: center;
+    font-family: merriweather ;
+    color: white;
+    padding:10px 10px 10px 10px ;
+    margin-left: 500px;
+    margin-right:500px;
 
 
 }
 
-#title{
-    font-family :specialElite;
-    font-size: 60px;
-    font-weight: bold;
-    text-decoration: inherit;
-    padding: 20px 10px 10px 0px;
+a{
+    border: solid 1px darkgoldenrod;
+    border-radius: 5px;
+    font-family: merriweather ;
+    color: white;
+    padding:10px 10px 10px 10px ;
+
 
 }
 
-#mainquote{
-    font-family: specialElite ;
-    font-size: 25px;
-    text-decoration: inherit;
-    color: #d2b261;
-}
+
+
 
 
 
