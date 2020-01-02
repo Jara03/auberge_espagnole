@@ -6,15 +6,20 @@ class HomeView{
  public function renderHome(){
      echo <<<END
              <!DOCTYPE html>
-        <html lang="en">
+        <html lang="fr">
         <head>
             <meta charset="utf-8">
+            
+            <title>Accueil</title>
+            <link rel="stylesheet" href="src/views/styles/style-main.css">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-            <title>Basic HTML File</title>
         </head>
         <body>
-            <h1>Auberge Espagnole</h1>
-            <div>la solution pour vos evenements et célébrations !</div>
+             <div id="mainbar">
+                 <div id="title">Auberge Espagnole</div>
+       <div id="mainquote">Organisez vos evenements!</div>
+             </div>
+       <div id="showpan"> </div>
         </body>
         </html>
 END;

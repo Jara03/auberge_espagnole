@@ -1,10 +1,43 @@
 
+@font-face {
+    font-family: specialElite;
+    src: url("../../../fonts/SpecialElite-Regular.ttf");
+}
 
+@font-face {
+    font-family: merriweather;
+    font-weight: bold;
+    src: url("../../../fonts/Merriweather-Bold.ttf");
+}
 body {
-    background: #1d2124;
-    color: #0f6674;
+    background: #dfcd95;
+    color: #d2a235;
+    margin: 0px;
+    padding: 20px 20px 10px  10px;
 }
+
+#mainbar{
+    border-bottom: solid #cba429;
+    border-width: 1px ;
+
+
+}
+
+#title{
+    font-family :specialElite;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: inherit;
+    padding: 20px 10px 10px 0px;
+
+}
+
 #mainquote{
-    color: deeppink;
+    font-family: specialElite ;
+    font-size: 25px;
+    text-decoration: inherit;
+    color: #d2b261;
 }
+
+
 
