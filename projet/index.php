@@ -26,5 +26,15 @@ $app->post("/inscription",function(){
 
 });
 
+$app->get("/connexion",function(){
+    $home = new HomeView();
+    $home->renderConnexion();
+
+});
+
+$app->post("/connexion",function(){
+
+});
+
 $app->run();
 

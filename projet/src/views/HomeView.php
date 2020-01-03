@@ -54,4 +54,31 @@ END;
 			</html>
 END;
  }
+    public function renderConnexion(){
+        echo <<<END
+             <!DOCTYPE html>
+			<html lang="fr">
+				<head>
+					<meta charset="utf-8">
+					<link rel="stylesheet" href="styles/style-main.css">
+					<title>S'inscrire</title>
+				</head>
+				<body>
+             <div id="mainbar"></div>
+             <div id="formulaire">
+             Connexion
+                        <div id="titlebar"></div>
+					<form method="post" action="connexion">
+						<label>pseudo</label>
+						<input class="text" type="text" name="username" placeholder="pseudo">
+						<label>mot de passe</label>
+						<input class="text" type="text" name="password" placeholder="mot de passe">
+						<button type="submit">Se connecter</button>
+					</form>
+					</div> 
+				</body>
+			</html>
+END;
+    }
+
 }
