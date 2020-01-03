@@ -17,8 +17,8 @@ $app->get("/", function() {
 });
 
 $app->get("/inscription",function(){
-$userController = new UserController();
-$userController->getFormInscrption();
+$home = new HomeView();
+$home->renderInscription();
 
 });
 

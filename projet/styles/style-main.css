@@ -44,8 +44,56 @@ a{
     font-family: merriweather ;
     color: white;
     padding:10px 10px 10px 10px ;
+}
 
+#formulaire{
+    text-align: center;
+    font-family: merriweather;
+    color: white;
+    font-size: 40px;
+}
 
+label {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color:lightgray;
+}
+#titlebar{
+    border-bottom: solid 1px #d2a235;
+    margin-left:400px;
+    margin-right: 400px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+input {
+    display: block;
+    margin: 0px auto 40px auto;
+    border-radius: 7px;
+    padding: 8px;
+    font-size: 20px;
+    background: #402538;
+    border: 1px solid #cba429;
+    color: #834c73;
+    width: 250px;
+    font-family: merriweather;
+}
+
+button {
+    display: block;
+    margin: 50px auto 0px auto;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 20px;
+    font-family: merriweather;
+    background: #cba429;
+    border: none;
+    color: white;
+    width: 150px;
+    cursor: pointer;
 }
 
 
