@@ -11,7 +11,7 @@ class HomeView{
             <meta charset="utf-8">
             
             <title>Accueil</title>
-            <link rel="stylesheet" href="src/views/styles/style-main.css">
+            <link rel="stylesheet" href="styles/style-main.css">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         </head>
         <body>
@@ -19,7 +19,10 @@ class HomeView{
                     <a href="inscription">S'inscrire</a>
                     <a href="connexion">Se connecter</a>
                     </div>
-       <div id="showpan"> ceci est le tableau d'affichage </div>
+       <div id="description"> Cette application vous permet d'organiser vos evenemnts et célébration en toute
+        simplicité ! Constituez votre liste d'invité et donnez leur le moyen de contribuer à la fête ! 
+        Il suffit de soumettre votre WishList et vos invités pourront la completer, chacun avec un petit geste. 
+        Le meilleur réseau de gestion d'êvenements !</div>
         </body>
         </html>
 END;
