@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: specialElite;
+    src: url("../fonts/SpecialElite-Regular.ttf");
+}
+
+@font-face {
+    font-family: merriweather;
+    font-weight: bold;
+    src: url("../fonts/Merriweather-Bold.ttf");
+}
+body {
+    background-color: #5c3551   ;
+    padding: 20px 20px 10px  10px;
+}
+
+
+#mainbar{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background: url(logo.png) no-repeat -10px -90px;
+    background-size: 300px 300px;
+    border-bottom: solid #cba429;
+    margin-bottom: 30px ;
+    border-width: 1px ;
+    text-align: right;
+    font-family: specialElite;
+}
+
+#description{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding:10px 10px 10px 10px ;
+    margin-left: 100px;
+    margin-right:100px;
+
+
+}
+
+a{
+    border: solid 1px darkgoldenrod;
+    border-radius: 5px;
+    font-family: merriweather ;
+    color: white;
+    padding:10px 10px 10px 10px ;
+
+
+}
+
+
+
+
+
+
