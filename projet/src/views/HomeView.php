@@ -43,10 +43,29 @@ END;
              Inscription
                         <div id="titlebar"></div>
 					<form method="post" action="inscription">
+					
+					<div id="blockname">
+					<label>Votre Nom</label>
+					<input class="text" type="text" name="surname" placeholder="nom">
+					<input class="text" type="text" name="name" placeholder="prenom">
+					</div>
+						
+					<div id="block1">
 						<label>Votre pseudo</label>
 						<input class="text" type="text" name="username" placeholder="pseudo">
 						<label>Votre mot de passe</label>
 						<input class="text" type="text" name="password" placeholder="mot de passe">
+						</div>
+						
+						
+						
+						<div id="block2">
+						<label>Votre adresse email</label>
+						<input class="text" type="text" name="email" placeholder="email">
+						<label>Votre numero </label>
+						<input class="text" type="text" name="mobile" placeholder="mobile">
+						</div>
+						
 						<button type="submit">M'inscrire</button>
 					</form>
 					</div> 
